@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="400" viewBox="0 0 1200 400"
+     role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Session Docter — context-cost doctor for coding-agent repos</title>
+  <desc id="hero-desc">Session Docter audits a repository and returns a scored report of context costs: a high-risk sample report is shown in a terminal card, with severity tags HIGH, MED and LOW, and the fix loop reducing the score from 8.6 to 3.0.</desc>
+
+  <defs>
+    <style>
+      .t-title { font: 700 68px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #E6EDF3; }
+      .t-eyebrow { font: 600 18px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8B949E; letter-spacing: 2px; }
+      .t-value { font: 400 22px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #C9D1D9; }
+      .t-chip { font: 500 18px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8B949E; }
+      .r-mono { font: 400 19px ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .r-dim { font: 400 15px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8B949E; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="400" rx="18" fill="#0B0E14"/>
+
+  <!-- title block -->
+  <g id="title-block" transform="translate(56 0)">
+    <text x="0" y="96" class="t-eyebrow">CONTEXT-COST DOCTOR · CODING-AGENT REPOS</text>
+    <text x="0" y="172" class="t-title">Session Docter</text>
+    <rect x="2" y="192" width="56" height="5" rx="2.5" fill="#3FB950"/>
+    <text x="0" y="240" class="t-value">See the context your agent sessions pay for.</text>
+    <text x="0" y="272" class="t-value">Thin it — evidence first, knowledge kept.</text>
+
+    <g id="metadata-chips">
+      <rect x="0" y="300" width="132" height="34" rx="8" fill="none" stroke="#30363D"/>
+      <text x="66" y="322" text-anchor="middle" class="t-chip">Python 3.8+</text>
+      <rect x="148" y="300" width="118" height="34" rx="8" fill="none" stroke="#30363D"/>
+      <text x="207" y="322" text-anchor="middle" class="t-chip">zero deps</text>
+      <rect x="282" y="300" width="172" height="34" rx="8" fill="none" stroke="#30363D"/>
+      <text x="368" y="322" text-anchor="middle" class="t-chip">read-only audit</text>
+    </g>
+  </g>
+
+  <!-- terminal report card: real trimmed audit output -->
+  <g id="terminal-card" transform="translate(640 48)">
+    <rect width="504" height="316" rx="12" fill="#06080D" stroke="#30363D"/>
+    <line x1="0" y1="30" x2="504" y2="30" stroke="#30363D"/>
+    <circle cx="20" cy="15" r="4.5" fill="#E5534B" opacity="0.85"/>
+    <circle cx="37" cy="15" r="4.5" fill="#D29922" opacity="0.85"/>
+    <circle cx="54" cy="15" r="4.5" fill="#3FB950" opacity="0.85"/>
+    <text x="76" y="20" class="r-dim">session_docter — audit</text>
+
+    <g transform="translate(16 58)">
+      <text x="0" y="0" class="r-mono"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3"> session_docter audit ./orion-platform</tspan></text>
+      <text x="0" y="26" class="r-mono" fill="#8B949E">risk  <tspan fill="#F85149" font-weight="700">8.6 / 10</tspan>  [high]</text>
+
+      <text x="0" y="58" class="r-mono"><tspan fill="#F85149">●</tspan><tspan fill="#F85149"> HIGH  </tspan><tspan fill="#8B949E">SD001</tspan><tspan fill="#E6EDF3">  startup context chain</tspan></text>
+      <text x="26" y="80" class="r-mono" fill="#8B949E">AGENTS.md → docs → CONTEXT.md</text>
+
+      <text x="0" y="110" class="r-mono"><tspan fill="#F85149">●</tspan><tspan fill="#F85149"> HIGH  </tspan><tspan fill="#8B949E">SD002</tspan><tspan fill="#E6EDF3">  heavy issue queries</tspan></text>
+      <text x="26" y="132" class="r-mono" fill="#8B949E">gh issue list --json …,body,comments</text>
+
+      <text x="0" y="162" class="r-mono"><tspan fill="#D29922">●</tspan><tspan fill="#D29922"> MED   </tspan><tspan fill="#8B949E">SD003</tspan><tspan fill="#E6EDF3">  instruction-file tax</tspan></text>
+      <text x="0" y="184" class="r-mono"><tspan fill="#3FB950">●</tspan><tspan fill="#3FB950"> LOW   </tspan><tspan fill="#8B949E">SD004</tspan><tspan fill="#E6EDF3">  large files, not auto-read</tspan></text>
+
+      <line x1="0" y1="202" x2="472" y2="202" stroke="#30363D"/>
+
+      <text x="0" y="226" class="r-mono" fill="#3FB950">fix --dry-run → 5 changes in 3 files</text>
+      <text x="0" y="251" class="r-mono"><tspan fill="#3FB950">re-audit:</tspan><tspan fill="#8B949E"> 8.6 → </tspan><tspan fill="#3FB950" font-weight="700">3.0 / 10</tspan><tspan fill="#8B949E">  [medium]</tspan></text>
+    </g>
+  </g>
+</svg>

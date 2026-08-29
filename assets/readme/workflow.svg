@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="340" viewBox="0 0 1200 340"
+     role="img" aria-labelledby="wf-title wf-desc">
+  <title id="wf-title">Session Docter workflow: audit, report, fix, re-audit</title>
+  <desc id="wf-desc">Pipeline from any git repo through a read-only audit, an evidence-backed risk report, a dry-run fix plan, an apply step limited to docs, and a re-audit to verify the delta. New projects can start with bootstrap instead.</desc>
+
+  <defs>
+    <style>
+      .stage-title { font: 700 24px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #E6EDF3; }
+      .stage-sub { font: 400 18px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8B949E; }
+      .stage-tag { font: 600 15px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #3FB950; }
+      .cmd { font: 400 18px ui-monospace, SFMono-Regular, Menlo, monospace; }
+      .cmd-chip-label { font: 500 18px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8B949E; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" rx="18" fill="#0B0E14"/>
+  <text x="38" y="52" class="stage-tag" letter-spacing="2">THE AUDIT → FIX LOOP · BOOTSTRAP FOR NEW REPOS</text>
+
+  <!-- pipeline stages -->
+  <g id="pipeline">
+    <g id="stage-repo" transform="translate(38 84)">
+      <rect width="196" height="96" rx="10" fill="#06080D" stroke="#30363D"/>
+      <text x="14" y="26" class="stage-tag">01</text>
+      <text x="14" y="56" class="stage-title">repo</text>
+      <text x="14" y="80" class="stage-sub">any git repo</text>
+    </g>
+    <path d="M 242 132 h 28" stroke="#8B949E" stroke-width="2"/>
+    <path d="M 270 132 l -8 -5 v 10 z" fill="#8B949E"/>
+
+    <g id="stage-audit" transform="translate(282 84)">
+      <rect width="196" height="96" rx="10" fill="#06080D" stroke="#30363D"/>
+      <text x="14" y="26" class="stage-tag">02</text>
+      <text x="14" y="56" class="stage-title">audit</text>
+      <text x="14" y="80" class="stage-sub">read-only scan</text>
+    </g>
+    <path d="M 486 132 h 28" stroke="#8B949E" stroke-width="2"/>
+    <path d="M 514 132 l -8 -5 v 10 z" fill="#8B949E"/>
+
+    <g id="stage-report" transform="translate(526 84)">
+      <rect width="196" height="96" rx="10" fill="#06080D" stroke="#30363D"/>
+      <text x="14" y="26" class="stage-tag">03</text>
+      <text x="14" y="56" class="stage-title">report</text>
+      <text x="14" y="80" class="stage-sub">score + evidence</text>
+    </g>
+    <path d="M 730 132 h 28" stroke="#8B949E" stroke-width="2"/>
+    <path d="M 758 132 l -8 -5 v 10 z" fill="#8B949E"/>
+
+    <g id="stage-fix" transform="translate(770 84)">
+      <rect width="196" height="96" rx="10" fill="#06080D" stroke="#3FB950"/>
+      <text x="14" y="26" class="stage-tag">04</text>
+      <text x="14" y="56" class="stage-title">fix</text>
+      <text x="14" y="80" class="stage-sub">docs-only patch</text>
+    </g>
+    <path d="M 974 132 h 28" stroke="#8B949E" stroke-width="2"/>
+    <path d="M 1002 132 l -8 -5 v 10 z" fill="#8B949E"/>
+
+    <g id="stage-reaudit" transform="translate(1014 84)">
+      <rect width="148" height="96" rx="10" fill="#06080D" stroke="#30363D"/>
+      <text x="14" y="26" class="stage-tag">05</text>
+      <text x="14" y="56" class="stage-title">re-audit</text>
+      <text x="14" y="80" class="stage-sub">verify delta</text>
+    </g>
+  </g>
+
+  <!-- loop-back cue + bootstrap branch + commands -->
+  <g id="footer-row" transform="translate(38 228)">
+    <rect x="0" y="0" width="510" height="44" rx="8" fill="none" stroke="#3FB950"/>
+    <text x="16" y="28" class="cmd-chip-label"><tspan fill="#3FB950">new repo?</tspan><tspan fill="#E6EDF3">  bootstrap → thin docs from day one</tspan></text>
+
+    <rect x="0" y="60" width="185" height="40" rx="8" fill="#06080D" stroke="#30363D"/>
+    <text x="14" y="85" class="cmd"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3"> audit &lt;repo&gt;</tspan></text>
+
+    <rect x="201" y="60" width="200" height="40" rx="8" fill="#06080D" stroke="#30363D"/>
+    <text x="215" y="85" class="cmd"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3"> fix --dry-run</tspan></text>
+
+    <rect x="417" y="60" width="270" height="40" rx="8" fill="#06080D" stroke="#30363D"/>
+    <text x="431" y="85" class="cmd"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3"> bootstrap &lt;new-repo&gt;</tspan></text>
+
+    <text x="711" y="85" class="stage-sub">full commands in Quick start ↓</text>
+  </g>
+</svg>
