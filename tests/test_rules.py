@@ -212,6 +212,74 @@ class TestSD006ToolLoop(unittest.TestCase):
         self.assertFalse(by_rule(res, "SD006"))
 
 
+class TestPatternHardening(unittest.TestCase):
+    """Regression tests for false positives found auditing CH-pipline."""
+
+    def test_zh_negated_bulk_rule_not_flagged(self):
+        root = make_repo({
+            "AGENTS.md": (
+                "# AGENTS\n\n- **列出问题索引**：默认只读取轻量字段："
+                "`gh issue list --state open --json number,title,labels,assignees`。"
+                "不要为了选择工单拉取所有开放 Issue 的 `body` 或 `comments`。\n"
+            ),
+        })
+        res = audit(root)
+        self.assertFalse(by_rule(res, "SD002"))
+
+    def test_en_negated_bulk_rule_not_flagged(self):
+        root = make_repo({
+            "docs/runbook.md": "Do not fetch all comments for open tickets; fetch per ticket.\n",
+        })
+        res = audit(root)
+        self.assertFalse(by_rule(res, "SD002"))
+
+    def test_owner_placeholder_not_flagged(self):
+        line = ("- **阻塞关系**：通过 `gh api --method POST repos/<所有者>/<仓库>/issues/<子工单编号>/"
+                "dependencies/blocked_by -F issue_id=<阻塞项数据库ID>` 建立依赖。"
+                "可通过 `gh api repos/<所有者>/<仓库>/issues/<编号> --jq .id` 获取，"
+                "不能使用 Issue 编号。所有阻塞 Issue 关闭后，工单才视为解除阻塞。")
+        root = make_repo({"AGENTS.md": "# AGENTS\n\n" + line + "\n"})
+        res = audit(root)
+        self.assertFalse(by_rule(res, "SD002"))
+
+    def test_full_log_prohibition_not_flagged(self):
+        root = make_repo({
+            "docs/design.md": ("- 不含密钥、Cookie、本机绝对路径或完整日志。\n\n"
+                               "| P-06 | P0 | manifest 含本机绝对路径、密钥或完整日志 | 清单校验失败 |\n"),
+        })
+        res = audit(root)
+        self.assertFalse(by_rule(res, "SD006"))
+
+    def test_full_log_read_on_failure_still_flagged(self):
+        root = make_repo({"AGENTS.md": "# AGENTS\n\n失败时读取完整构建日志并分析。\n"})
+        res = audit(root)
+        self.assertTrue(by_rule(res, "SD006"))
+
+    def test_single_heavy_list_in_doc_is_medium(self):
+        root = make_repo({
+            "AGENTS.md": "# AGENTS\n\nSee docs/workflows.md.\n",
+            "docs/workflows.md": (
+                "gh pr list --state open --json number,title,body,labels,author,authorAssociation,comments\n"
+            ),
+        })
+        res = audit(root)
+        hits = by_rule(res, "SD002")
+        self.assertTrue(hits)
+        self.assertEqual(hits[0].severity, "medium")
+
+    def test_double_heavy_list_is_high(self):
+        root = make_repo({
+            "docs/workflows.md": (
+                "gh issue list --state open --json number,title,body,labels,comments\n"
+                "gh pr list --state open --json number,title,body\n"
+            ),
+        })
+        res = audit(root)
+        hits = by_rule(res, "SD002")
+        self.assertTrue(hits)
+        self.assertEqual(hits[0].severity, "high")
+
+
 class TestAuditSafety(unittest.TestCase):
     def test_audit_is_read_only(self):
         # fixture G spirit: running audit on an empty-ish repo must not create anything

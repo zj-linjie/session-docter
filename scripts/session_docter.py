@@ -28,7 +28,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable, Dict, Iterable, List, Optional, Set, Tuple
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 
 # ---------------------------------------------------------------------------
 # constants
@@ -318,18 +318,21 @@ def is_context_doc(p: Path) -> bool:
 
 
 SD002_CMD_RULES: List[Tuple[re.Pattern, str, str]] = [
+    # NOTE: the field list after --json is matched with a bounded identifier
+    # class, so trailing prose on the same line (e.g. a Chinese rule explaining
+    # why NOT to fetch bodies) cannot bridge into a false hit.
     (
-        re.compile(r"(?i)gh\s+(?:issue|pr)\s+list\b[^|\n]*--json[^\n]*\b(?:body|comments)\b"),
+        re.compile(r"(?i)gh\s+(?:issue|pr)\s+list\b[^|\n]*?--json\s+[A-Za-z0-9_,\t ]*\b(?:body|comments)\b"),
         "high",
         "list call loads full bodies/comments for every item",
     ),
     (
-        re.compile(r"(?i)gh\s+(?:issue|pr)\s+list\b[^|\n]*--json[^\n]*\bfiles\b"),
+        re.compile(r"(?i)gh\s+(?:issue|pr)\s+list\b[^|\n]*?--json\s+[A-Za-z0-9_,\t ]*\bfiles\b"),
         "medium",
         "list call loads changed-file payloads for every item",
     ),
     (
-        re.compile(r"(?i)gh\s+(?:issue|pr)\s+list\b[^|\n]*--json[^\n]*\b(?:reviews|diff)\b"),
+        re.compile(r"(?i)gh\s+(?:issue|pr)\s+list\b[^|\n]*?--json\s+[A-Za-z0-9_,\t ]*\b(?:reviews|diff)\b"),
         "medium",
         "list call loads review/diff payloads for every item",
     ),
@@ -356,11 +359,29 @@ SD002_NL_RULES: List[Tuple[re.Pattern, str, str]] = [
         "rule asks to read every comment/body in bulk",
     ),
     (
-        re.compile(r"(?:\u6240\u6709|\u5168\u90e8)[^\n]{0,12}(?:issue|\u8bc4\u8bba|\u6b63\u6587)[^\n]{0,20}(?:\u8bfb\u53d6|\u62c9\u53d6|\u83b7\u53d6)|(?:\u8bfb\u53d6|\u62c9\u53d6|\u83b7\u53d6)[^\n]{0,10}\u6240\u6709[^\n]{0,12}(?:issue|\u8bc4\u8bba|\u6b63\u6587)"),
+        re.compile(r"(?:所有(?!者)|全部)[^\n]{0,12}(?:issue|评论|正文)[^\n]{0,20}(?:读取|拉取|获取)|(?:读取|拉取|获取)[^\n]{0,10}所有(?!者)[^\n]{0,12}(?:issue|评论|正文)"),
         "medium",
-        "\u89c4\u5219\u8981\u6c42\u8bfb\u53d6\u5168\u90e8 issue \u6b63\u6587/\u8bc4\u8bba",
+        "规则要求读取全部 issue 正文/评论",
     ),
 ]
+
+# Negation guard: prose patterns must not flag rules that *prohibit* bulk
+# reads (e.g. "不要拉取所有评论", "do not fetch all comments"). Checked in a
+# window before the match; structural `gh` command patterns do not use it
+# (they are shape-precise).
+NEGATION_RE = re.compile(
+    r"(?i)(?:"
+    r"不要|不必|勿|禁止|严禁|不能|不得|不应|不可(?!变)|无需|避免|排除|拒绝|不含|不包含"
+    r"|don['’]t|do\s+not|must\s+not|should\s+not|cannot|can['’]t|no\s+need"
+    r"|without|avoid\w*|exclud\w*|forbid\w*|prohibit\w*|never"
+    r")"
+)
+
+
+def negated(line: str, start: int, before: int = 28) -> bool:
+    """True when a negation marker appears just before the match."""
+    lo = max(0, start - before)
+    return bool(NEGATION_RE.search(line[lo:start]))
 
 MUTABLE_LINE_RE = re.compile(
     r"(?im)(?:"
@@ -439,7 +460,7 @@ DENSE_RES: List[Tuple[re.Pattern, str]] = [
         "\u6bcf\u6b65\u6784\u5efa/\u622a\u56fe\u89c4\u5219",
     ),
     (
-        re.compile(r"(?:\u5b8c\u6574|\u5168\u90e8)(?:\u7f16\u8bd1|\u6784\u5efa|CI)?\u65e5\u5fd7"),
+        re.compile(r"(?:读取|读入|查看|下载|获取|拉取)[^\n]{0,6}(?:\u5b8c\u6574|\u5168\u90e8)(?:\u7f16\u8bd1|\u6784\u5efa|CI)?\u65e5\u5fd7"),
         "\u8bfb\u53d6\u5b8c\u6574\u65e5\u5fd7\u89c4\u5219",
     ),
 ]
@@ -652,21 +673,44 @@ def rule_sd002(ctx: RepoCtx) -> List[Finding]:
     hits: List[Evidence] = []
     worst = "low"
     rank = {"high": 0, "medium": 1, "low": 2, "info": 3}
+    cmd_line_count = 0
+    cmd_hit_in_instruction = False
     for p in ctx.scan_files:
         text = ctx.texts.get(p, "")
         for i, line in enumerate(text.splitlines(), 1):
-            for rx, sev, label in SD002_CMD_RULES + SD002_NL_RULES:
-                if rx.search(line):
-                    hits.append(Evidence(rel(ctx.root, p), i, f"{label}: {line.strip()[:140]}"))
-                    if rank[sev] < rank[worst]:
-                        worst = sev
+            hit = None
+            for rx, sev, label in SD002_CMD_RULES:
+                m = rx.search(line)
+                if m:
+                    hit = (sev, label)
+                    cmd_line_count += 1
+                    if p in ctx.instruction_files:
+                        cmd_hit_in_instruction = True
                     break
+            if hit is None:
+                for rx, sev, label in SD002_NL_RULES:
+                    m = rx.search(line)
+                    if m and not negated(line, m.start()):
+                        hit = (sev, label)
+                        break
+            if hit:
+                sev, label = hit
+                hits.append(Evidence(rel(ctx.root, p), i, f"{label}: {line.strip()[:140]}"))
+                if rank[sev] < rank[worst]:
+                    worst = sev
     if not hits:
         return []
+    # Calibration: a single structural hit outside instruction files is a
+    # bounded tax (medium); several hits, or any hit in the startup file,
+    # scale with the whole tracker (high).
+    if cmd_line_count >= 2 or cmd_hit_in_instruction:
+        severity = "high"
+    else:
+        severity = "medium" if worst in {"high", "medium"} else worst
     return [Finding(
         rule_id="SD002",
         title="Heavy issue/PR discovery queries",
-        severity=worst,
+        severity=severity,
         confidence="high",
         why=("Issue/PR discovery becomes a context dump: each list call pulls full payloads for every "
              "item, and the loop replays all of it in the transcript. Token cost scales with the whole "
@@ -751,7 +795,8 @@ def rule_sd004(
         text = ctx.texts.get(p, "")
         for i, line in enumerate(text.splitlines(), 1):
             for rx, label in BULK_READ_RES:
-                if rx.search(line):
+                m = rx.search(line)
+                if m and not negated(line, m.start()):
                     bulk.append(Evidence(rel(ctx.root, p), i, f"{label}: {line.strip()[:140]}"))
                     if p in ctx.instruction_files or p in mandatory_reachable:
                         if rank["high"] < rank[bulk_worst]:
@@ -856,7 +901,8 @@ def rule_sd005(ctx: RepoCtx) -> List[Finding]:
                 boundary.append(Evidence(rel(ctx.root, p), i, line.strip()[:140]))
             if LONG_LIVED_RE.search(line):
                 longlived.append(Evidence(rel(ctx.root, p), i, line.strip()[:140]))
-            if TRANSCRIPT_RE.search(line):
+            tm = TRANSCRIPT_RE.search(line)
+            if tm and not negated(line, tm.start()):
                 transcript.append(Evidence(rel(ctx.root, p), i, line.strip()[:140]))
 
     if not orch and not multi:
@@ -910,7 +956,8 @@ def rule_sd006(ctx: RepoCtx) -> List[Finding]:
             visual_files.append(rel(ctx.root, p))
         for i, line in enumerate(text.splitlines(), 1):
             for rx, label in DENSE_RES:
-                if rx.search(line):
+                m = rx.search(line)
+                if m and not negated(line, m.start()):
                     dense.append(Evidence(rel(ctx.root, p), i, f"{label}: {line.strip()[:140]}"))
                     break
 

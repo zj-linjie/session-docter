@@ -21,3 +21,16 @@ text), why it costs context, the recommended change, and whether it is
 auto-fixable. Static analysis cannot know everything (e.g. the real length of
 remote issues) — such cases are reported as lower-confidence or lower-severity
 potential risks instead of fabricated conclusions.
+
+## False-positive guards
+
+Prose (natural-language) patterns apply a negation guard: when a marker like
+不要 / 禁止 / 不含 / don't / never / without appears just before the match, the
+hit is skipped (a rule that *prohibits* bulk reads is healthy, not risky).
+Structural `gh` command patterns stay shape-precise instead: the field list
+after `--json` is matched with a bounded identifier class, so trailing prose
+on the same line cannot bridge into a hit. Chinese full-log patterns require
+a reading verb (读取/查看/下载/获取/拉取) so content policies like “不含完整
+日志” or test-matrix rows are not mistaken for loop mandates. SD002 also
+calibrates severity: one structural hit outside instruction files is medium;
+two or more, or any hit in the startup file, is high.
