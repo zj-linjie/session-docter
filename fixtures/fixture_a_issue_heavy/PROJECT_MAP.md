@@ -1,0 +1,311 @@
+# PROJECT_MAP — full project history
+
+- 2026-02-02 — shipped iteration 1: migrated module 1, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1001.
+- 2026-03-03 — shipped iteration 2: migrated module 2, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1002.
+- 2026-04-04 — shipped iteration 3: migrated module 3, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1003.
+- 2026-05-05 — shipped iteration 4: migrated module 4, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1004.
+- 2026-06-06 — shipped iteration 5: migrated module 5, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1005.
+- 2026-07-07 — shipped iteration 6: migrated module 6, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1006.
+- 2026-08-08 — shipped iteration 7: migrated module 7, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1007.
+- 2026-09-09 — shipped iteration 8: migrated module 8, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1008.
+- 2026-10-10 — shipped iteration 9: migrated module 9, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1009.
+- 2026-11-11 — shipped iteration 10: migrated module 10, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1010.
+- 2026-12-12 — shipped iteration 11: migrated module 11, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1011.
+- 2026-01-13 — shipped iteration 12: migrated module 12, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1012.
+- 2026-02-14 — shipped iteration 13: migrated module 13, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1013.
+- 2026-03-15 — shipped iteration 14: migrated module 14, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1014.
+- 2026-04-16 — shipped iteration 15: migrated module 15, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1015.
+- 2026-05-17 — shipped iteration 16: migrated module 16, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1016.
+- 2026-06-18 — shipped iteration 17: migrated module 0, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1017.
+- 2026-07-19 — shipped iteration 18: migrated module 1, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1018.
+- 2026-08-20 — shipped iteration 19: migrated module 2, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1019.
+- 2026-09-21 — shipped iteration 20: migrated module 3, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1020.
+- 2026-10-22 — shipped iteration 21: migrated module 4, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1021.
+- 2026-11-23 — shipped iteration 22: migrated module 5, closed 4 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1022.
+- 2026-12-24 — shipped iteration 23: migrated module 6, closed 5 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1023.
+- 2026-01-25 — shipped iteration 24: migrated module 7, closed 6 tickets, owner anna, notes: follow-up filed as ORION-1024.
+- 2026-02-26 — shipped iteration 25: migrated module 8, closed 7 tickets, owner ben, notes: detail follow-up filed as ORION-1025.
+- 2026-03-27 — shipped iteration 26: migrated module 9, closed 8 tickets, owner chen, notes: detail detail follow-up filed as ORION-1026.
+- 2026-04-28 — shipped iteration 27: migrated module 10, closed 0 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1027.
+- 2026-05-01 — shipped iteration 28: migrated module 11, closed 1 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1028.
+- 2026-06-02 — shipped iteration 29: migrated module 12, closed 2 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1029.
+- 2026-07-03 — shipped iteration 30: migrated module 13, closed 3 tickets, owner chen, notes: follow-up filed as ORION-1030.
+- 2026-08-04 — shipped iteration 31: migrated module 14, closed 4 tickets, owner dee, notes: detail follow-up filed as ORION-1031.
+- 2026-09-05 — shipped iteration 32: migrated module 15, closed 5 tickets, owner anna, notes: detail detail follow-up filed as ORION-1032.
+- 2026-10-06 — shipped iteration 33: migrated module 16, closed 6 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1033.
+- 2026-11-07 — shipped iteration 34: migrated module 0, closed 7 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1034.
+- 2026-12-08 — shipped iteration 35: migrated module 1, closed 8 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1035.
+- 2026-01-09 — shipped iteration 36: migrated module 2, closed 0 tickets, owner anna, notes: follow-up filed as ORION-1036.
+- 2026-02-10 — shipped iteration 37: migrated module 3, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1037.
+- 2026-03-11 — shipped iteration 38: migrated module 4, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1038.
+- 2026-04-12 — shipped iteration 39: migrated module 5, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1039.
+- 2026-05-13 — shipped iteration 40: migrated module 6, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1040.
+- 2026-06-14 — shipped iteration 41: migrated module 7, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1041.
+- 2026-07-15 — shipped iteration 42: migrated module 8, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1042.
+- 2026-08-16 — shipped iteration 43: migrated module 9, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1043.
+- 2026-09-17 — shipped iteration 44: migrated module 10, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1044.
+- 2026-10-18 — shipped iteration 45: migrated module 11, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1045.
+- 2026-11-19 — shipped iteration 46: migrated module 12, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1046.
+- 2026-12-20 — shipped iteration 47: migrated module 13, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1047.
+- 2026-01-21 — shipped iteration 48: migrated module 14, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1048.
+- 2026-02-22 — shipped iteration 49: migrated module 15, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1049.
+- 2026-03-23 — shipped iteration 50: migrated module 16, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1050.
+- 2026-04-24 — shipped iteration 51: migrated module 0, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1051.
+- 2026-05-25 — shipped iteration 52: migrated module 1, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1052.
+- 2026-06-26 — shipped iteration 53: migrated module 2, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1053.
+- 2026-07-27 — shipped iteration 54: migrated module 3, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1054.
+- 2026-08-28 — shipped iteration 55: migrated module 4, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1055.
+- 2026-09-01 — shipped iteration 56: migrated module 5, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1056.
+- 2026-10-02 — shipped iteration 57: migrated module 6, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1057.
+- 2026-11-03 — shipped iteration 58: migrated module 7, closed 4 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1058.
+- 2026-12-04 — shipped iteration 59: migrated module 8, closed 5 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1059.
+- 2026-01-05 — shipped iteration 60: migrated module 9, closed 6 tickets, owner anna, notes: follow-up filed as ORION-1060.
+- 2026-02-06 — shipped iteration 61: migrated module 10, closed 7 tickets, owner ben, notes: detail follow-up filed as ORION-1061.
+- 2026-03-07 — shipped iteration 62: migrated module 11, closed 8 tickets, owner chen, notes: detail detail follow-up filed as ORION-1062.
+- 2026-04-08 — shipped iteration 63: migrated module 12, closed 0 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1063.
+- 2026-05-09 — shipped iteration 64: migrated module 13, closed 1 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1064.
+- 2026-06-10 — shipped iteration 65: migrated module 14, closed 2 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1065.
+- 2026-07-11 — shipped iteration 66: migrated module 15, closed 3 tickets, owner chen, notes: follow-up filed as ORION-1066.
+- 2026-08-12 — shipped iteration 67: migrated module 16, closed 4 tickets, owner dee, notes: detail follow-up filed as ORION-1067.
+- 2026-09-13 — shipped iteration 68: migrated module 0, closed 5 tickets, owner anna, notes: detail detail follow-up filed as ORION-1068.
+- 2026-10-14 — shipped iteration 69: migrated module 1, closed 6 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1069.
+- 2026-11-15 — shipped iteration 70: migrated module 2, closed 7 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1070.
+- 2026-12-16 — shipped iteration 71: migrated module 3, closed 8 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1071.
+- 2026-01-17 — shipped iteration 72: migrated module 4, closed 0 tickets, owner anna, notes: follow-up filed as ORION-1072.
+- 2026-02-18 — shipped iteration 73: migrated module 5, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1073.
+- 2026-03-19 — shipped iteration 74: migrated module 6, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1074.
+- 2026-04-20 — shipped iteration 75: migrated module 7, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1075.
+- 2026-05-21 — shipped iteration 76: migrated module 8, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1076.
+- 2026-06-22 — shipped iteration 77: migrated module 9, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1077.
+- 2026-07-23 — shipped iteration 78: migrated module 10, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1078.
+- 2026-08-24 — shipped iteration 79: migrated module 11, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1079.
+- 2026-09-25 — shipped iteration 80: migrated module 12, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1080.
+- 2026-10-26 — shipped iteration 81: migrated module 13, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1081.
+- 2026-11-27 — shipped iteration 82: migrated module 14, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1082.
+- 2026-12-28 — shipped iteration 83: migrated module 15, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1083.
+- 2026-01-01 — shipped iteration 84: migrated module 16, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1084.
+- 2026-02-02 — shipped iteration 85: migrated module 0, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1085.
+- 2026-03-03 — shipped iteration 86: migrated module 1, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1086.
+- 2026-04-04 — shipped iteration 87: migrated module 2, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1087.
+- 2026-05-05 — shipped iteration 88: migrated module 3, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1088.
+- 2026-06-06 — shipped iteration 89: migrated module 4, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1089.
+- 2026-07-07 — shipped iteration 90: migrated module 5, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1090.
+- 2026-08-08 — shipped iteration 91: migrated module 6, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1091.
+- 2026-09-09 — shipped iteration 92: migrated module 7, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1092.
+- 2026-10-10 — shipped iteration 93: migrated module 8, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1093.
+- 2026-11-11 — shipped iteration 94: migrated module 9, closed 4 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1094.
+- 2026-12-12 — shipped iteration 95: migrated module 10, closed 5 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1095.
+- 2026-01-13 — shipped iteration 96: migrated module 11, closed 6 tickets, owner anna, notes: follow-up filed as ORION-1096.
+- 2026-02-14 — shipped iteration 97: migrated module 12, closed 7 tickets, owner ben, notes: detail follow-up filed as ORION-1097.
+- 2026-03-15 — shipped iteration 98: migrated module 13, closed 8 tickets, owner chen, notes: detail detail follow-up filed as ORION-1098.
+- 2026-04-16 — shipped iteration 99: migrated module 14, closed 0 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1099.
+- 2026-05-17 — shipped iteration 100: migrated module 15, closed 1 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1100.
+- 2026-06-18 — shipped iteration 101: migrated module 16, closed 2 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1101.
+- 2026-07-19 — shipped iteration 102: migrated module 0, closed 3 tickets, owner chen, notes: follow-up filed as ORION-1102.
+- 2026-08-20 — shipped iteration 103: migrated module 1, closed 4 tickets, owner dee, notes: detail follow-up filed as ORION-1103.
+- 2026-09-21 — shipped iteration 104: migrated module 2, closed 5 tickets, owner anna, notes: detail detail follow-up filed as ORION-1104.
+- 2026-10-22 — shipped iteration 105: migrated module 3, closed 6 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1105.
+- 2026-11-23 — shipped iteration 106: migrated module 4, closed 7 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1106.
+- 2026-12-24 — shipped iteration 107: migrated module 5, closed 8 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1107.
+- 2026-01-25 — shipped iteration 108: migrated module 6, closed 0 tickets, owner anna, notes: follow-up filed as ORION-1108.
+- 2026-02-26 — shipped iteration 109: migrated module 7, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1109.
+- 2026-03-27 — shipped iteration 110: migrated module 8, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1110.
+- 2026-04-28 — shipped iteration 111: migrated module 9, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1111.
+- 2026-05-01 — shipped iteration 112: migrated module 10, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1112.
+- 2026-06-02 — shipped iteration 113: migrated module 11, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1113.
+- 2026-07-03 — shipped iteration 114: migrated module 12, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1114.
+- 2026-08-04 — shipped iteration 115: migrated module 13, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1115.
+- 2026-09-05 — shipped iteration 116: migrated module 14, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1116.
+- 2026-10-06 — shipped iteration 117: migrated module 15, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1117.
+- 2026-11-07 — shipped iteration 118: migrated module 16, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1118.
+- 2026-12-08 — shipped iteration 119: migrated module 0, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1119.
+- 2026-01-09 — shipped iteration 120: migrated module 1, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1120.
+- 2026-02-10 — shipped iteration 121: migrated module 2, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1121.
+- 2026-03-11 — shipped iteration 122: migrated module 3, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1122.
+- 2026-04-12 — shipped iteration 123: migrated module 4, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1123.
+- 2026-05-13 — shipped iteration 124: migrated module 5, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1124.
+- 2026-06-14 — shipped iteration 125: migrated module 6, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1125.
+- 2026-07-15 — shipped iteration 126: migrated module 7, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1126.
+- 2026-08-16 — shipped iteration 127: migrated module 8, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1127.
+- 2026-09-17 — shipped iteration 128: migrated module 9, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1128.
+- 2026-10-18 — shipped iteration 129: migrated module 10, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1129.
+- 2026-11-19 — shipped iteration 130: migrated module 11, closed 4 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1130.
+- 2026-12-20 — shipped iteration 131: migrated module 12, closed 5 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1131.
+- 2026-01-21 — shipped iteration 132: migrated module 13, closed 6 tickets, owner anna, notes: follow-up filed as ORION-1132.
+- 2026-02-22 — shipped iteration 133: migrated module 14, closed 7 tickets, owner ben, notes: detail follow-up filed as ORION-1133.
+- 2026-03-23 — shipped iteration 134: migrated module 15, closed 8 tickets, owner chen, notes: detail detail follow-up filed as ORION-1134.
+- 2026-04-24 — shipped iteration 135: migrated module 16, closed 0 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1135.
+- 2026-05-25 — shipped iteration 136: migrated module 0, closed 1 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1136.
+- 2026-06-26 — shipped iteration 137: migrated module 1, closed 2 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1137.
+- 2026-07-27 — shipped iteration 138: migrated module 2, closed 3 tickets, owner chen, notes: follow-up filed as ORION-1138.
+- 2026-08-28 — shipped iteration 139: migrated module 3, closed 4 tickets, owner dee, notes: detail follow-up filed as ORION-1139.
+- 2026-09-01 — shipped iteration 140: migrated module 4, closed 5 tickets, owner anna, notes: detail detail follow-up filed as ORION-1140.
+- 2026-10-02 — shipped iteration 141: migrated module 5, closed 6 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1141.
+- 2026-11-03 — shipped iteration 142: migrated module 6, closed 7 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1142.
+- 2026-12-04 — shipped iteration 143: migrated module 7, closed 8 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1143.
+- 2026-01-05 — shipped iteration 144: migrated module 8, closed 0 tickets, owner anna, notes: follow-up filed as ORION-1144.
+- 2026-02-06 — shipped iteration 145: migrated module 9, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1145.
+- 2026-03-07 — shipped iteration 146: migrated module 10, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1146.
+- 2026-04-08 — shipped iteration 147: migrated module 11, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1147.
+- 2026-05-09 — shipped iteration 148: migrated module 12, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1148.
+- 2026-06-10 — shipped iteration 149: migrated module 13, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1149.
+- 2026-07-11 — shipped iteration 150: migrated module 14, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1150.
+- 2026-08-12 — shipped iteration 151: migrated module 15, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1151.
+- 2026-09-13 — shipped iteration 152: migrated module 16, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1152.
+- 2026-10-14 — shipped iteration 153: migrated module 0, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1153.
+- 2026-11-15 — shipped iteration 154: migrated module 1, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1154.
+- 2026-12-16 — shipped iteration 155: migrated module 2, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1155.
+- 2026-01-17 — shipped iteration 156: migrated module 3, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1156.
+- 2026-02-18 — shipped iteration 157: migrated module 4, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1157.
+- 2026-03-19 — shipped iteration 158: migrated module 5, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1158.
+- 2026-04-20 — shipped iteration 159: migrated module 6, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1159.
+- 2026-05-21 — shipped iteration 160: migrated module 7, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1160.
+- 2026-06-22 — shipped iteration 161: migrated module 8, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1161.
+- 2026-07-23 — shipped iteration 162: migrated module 9, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1162.
+- 2026-08-24 — shipped iteration 163: migrated module 10, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1163.
+- 2026-09-25 — shipped iteration 164: migrated module 11, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1164.
+- 2026-10-26 — shipped iteration 165: migrated module 12, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1165.
+- 2026-11-27 — shipped iteration 166: migrated module 13, closed 4 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1166.
+- 2026-12-28 — shipped iteration 167: migrated module 14, closed 5 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1167.
+- 2026-01-01 — shipped iteration 168: migrated module 15, closed 6 tickets, owner anna, notes: follow-up filed as ORION-1168.
+- 2026-02-02 — shipped iteration 169: migrated module 16, closed 7 tickets, owner ben, notes: detail follow-up filed as ORION-1169.
+- 2026-03-03 — shipped iteration 170: migrated module 0, closed 8 tickets, owner chen, notes: detail detail follow-up filed as ORION-1170.
+- 2026-04-04 — shipped iteration 171: migrated module 1, closed 0 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1171.
+- 2026-05-05 — shipped iteration 172: migrated module 2, closed 1 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1172.
+- 2026-06-06 — shipped iteration 173: migrated module 3, closed 2 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1173.
+- 2026-07-07 — shipped iteration 174: migrated module 4, closed 3 tickets, owner chen, notes: follow-up filed as ORION-1174.
+- 2026-08-08 — shipped iteration 175: migrated module 5, closed 4 tickets, owner dee, notes: detail follow-up filed as ORION-1175.
+- 2026-09-09 — shipped iteration 176: migrated module 6, closed 5 tickets, owner anna, notes: detail detail follow-up filed as ORION-1176.
+- 2026-10-10 — shipped iteration 177: migrated module 7, closed 6 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1177.
+- 2026-11-11 — shipped iteration 178: migrated module 8, closed 7 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1178.
+- 2026-12-12 — shipped iteration 179: migrated module 9, closed 8 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1179.
+- 2026-01-13 — shipped iteration 180: migrated module 10, closed 0 tickets, owner anna, notes: follow-up filed as ORION-1180.
+- 2026-02-14 — shipped iteration 181: migrated module 11, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1181.
+- 2026-03-15 — shipped iteration 182: migrated module 12, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1182.
+- 2026-04-16 — shipped iteration 183: migrated module 13, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1183.
+- 2026-05-17 — shipped iteration 184: migrated module 14, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1184.
+- 2026-06-18 — shipped iteration 185: migrated module 15, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1185.
+- 2026-07-19 — shipped iteration 186: migrated module 16, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1186.
+- 2026-08-20 — shipped iteration 187: migrated module 0, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1187.
+- 2026-09-21 — shipped iteration 188: migrated module 1, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1188.
+- 2026-10-22 — shipped iteration 189: migrated module 2, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1189.
+- 2026-11-23 — shipped iteration 190: migrated module 3, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1190.
+- 2026-12-24 — shipped iteration 191: migrated module 4, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1191.
+- 2026-01-25 — shipped iteration 192: migrated module 5, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1192.
+- 2026-02-26 — shipped iteration 193: migrated module 6, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1193.
+- 2026-03-27 — shipped iteration 194: migrated module 7, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1194.
+- 2026-04-28 — shipped iteration 195: migrated module 8, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1195.
+- 2026-05-01 — shipped iteration 196: migrated module 9, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1196.
+- 2026-06-02 — shipped iteration 197: migrated module 10, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1197.
+- 2026-07-03 — shipped iteration 198: migrated module 11, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1198.
+- 2026-08-04 — shipped iteration 199: migrated module 12, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1199.
+- 2026-09-05 — shipped iteration 200: migrated module 13, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1200.
+- 2026-10-06 — shipped iteration 201: migrated module 14, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1201.
+- 2026-11-07 — shipped iteration 202: migrated module 15, closed 4 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1202.
+- 2026-12-08 — shipped iteration 203: migrated module 16, closed 5 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1203.
+- 2026-01-09 — shipped iteration 204: migrated module 0, closed 6 tickets, owner anna, notes: follow-up filed as ORION-1204.
+- 2026-02-10 — shipped iteration 205: migrated module 1, closed 7 tickets, owner ben, notes: detail follow-up filed as ORION-1205.
+- 2026-03-11 — shipped iteration 206: migrated module 2, closed 8 tickets, owner chen, notes: detail detail follow-up filed as ORION-1206.
+- 2026-04-12 — shipped iteration 207: migrated module 3, closed 0 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1207.
+- 2026-05-13 — shipped iteration 208: migrated module 4, closed 1 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1208.
+- 2026-06-14 — shipped iteration 209: migrated module 5, closed 2 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1209.
+- 2026-07-15 — shipped iteration 210: migrated module 6, closed 3 tickets, owner chen, notes: follow-up filed as ORION-1210.
+- 2026-08-16 — shipped iteration 211: migrated module 7, closed 4 tickets, owner dee, notes: detail follow-up filed as ORION-1211.
+- 2026-09-17 — shipped iteration 212: migrated module 8, closed 5 tickets, owner anna, notes: detail detail follow-up filed as ORION-1212.
+- 2026-10-18 — shipped iteration 213: migrated module 9, closed 6 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1213.
+- 2026-11-19 — shipped iteration 214: migrated module 10, closed 7 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1214.
+- 2026-12-20 — shipped iteration 215: migrated module 11, closed 8 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1215.
+- 2026-01-21 — shipped iteration 216: migrated module 12, closed 0 tickets, owner anna, notes: follow-up filed as ORION-1216.
+- 2026-02-22 — shipped iteration 217: migrated module 13, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1217.
+- 2026-03-23 — shipped iteration 218: migrated module 14, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1218.
+- 2026-04-24 — shipped iteration 219: migrated module 15, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1219.
+- 2026-05-25 — shipped iteration 220: migrated module 16, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1220.
+- 2026-06-26 — shipped iteration 221: migrated module 0, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1221.
+- 2026-07-27 — shipped iteration 222: migrated module 1, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1222.
+- 2026-08-28 — shipped iteration 223: migrated module 2, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1223.
+- 2026-09-01 — shipped iteration 224: migrated module 3, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1224.
+- 2026-10-02 — shipped iteration 225: migrated module 4, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1225.
+- 2026-11-03 — shipped iteration 226: migrated module 5, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1226.
+- 2026-12-04 — shipped iteration 227: migrated module 6, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1227.
+- 2026-01-05 — shipped iteration 228: migrated module 7, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1228.
+- 2026-02-06 — shipped iteration 229: migrated module 8, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1229.
+- 2026-03-07 — shipped iteration 230: migrated module 9, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1230.
+- 2026-04-08 — shipped iteration 231: migrated module 10, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1231.
+- 2026-05-09 — shipped iteration 232: migrated module 11, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1232.
+- 2026-06-10 — shipped iteration 233: migrated module 12, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1233.
+- 2026-07-11 — shipped iteration 234: migrated module 13, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1234.
+- 2026-08-12 — shipped iteration 235: migrated module 14, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1235.
+- 2026-09-13 — shipped iteration 236: migrated module 15, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1236.
+- 2026-10-14 — shipped iteration 237: migrated module 16, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1237.
+- 2026-11-15 — shipped iteration 238: migrated module 0, closed 4 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1238.
+- 2026-12-16 — shipped iteration 239: migrated module 1, closed 5 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1239.
+- 2026-01-17 — shipped iteration 240: migrated module 2, closed 6 tickets, owner anna, notes: follow-up filed as ORION-1240.
+- 2026-02-18 — shipped iteration 241: migrated module 3, closed 7 tickets, owner ben, notes: detail follow-up filed as ORION-1241.
+- 2026-03-19 — shipped iteration 242: migrated module 4, closed 8 tickets, owner chen, notes: detail detail follow-up filed as ORION-1242.
+- 2026-04-20 — shipped iteration 243: migrated module 5, closed 0 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1243.
+- 2026-05-21 — shipped iteration 244: migrated module 6, closed 1 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1244.
+- 2026-06-22 — shipped iteration 245: migrated module 7, closed 2 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1245.
+- 2026-07-23 — shipped iteration 246: migrated module 8, closed 3 tickets, owner chen, notes: follow-up filed as ORION-1246.
+- 2026-08-24 — shipped iteration 247: migrated module 9, closed 4 tickets, owner dee, notes: detail follow-up filed as ORION-1247.
+- 2026-09-25 — shipped iteration 248: migrated module 10, closed 5 tickets, owner anna, notes: detail detail follow-up filed as ORION-1248.
+- 2026-10-26 — shipped iteration 249: migrated module 11, closed 6 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1249.
+- 2026-11-27 — shipped iteration 250: migrated module 12, closed 7 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1250.
+- 2026-12-28 — shipped iteration 251: migrated module 13, closed 8 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1251.
+- 2026-01-01 — shipped iteration 252: migrated module 14, closed 0 tickets, owner anna, notes: follow-up filed as ORION-1252.
+- 2026-02-02 — shipped iteration 253: migrated module 15, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1253.
+- 2026-03-03 — shipped iteration 254: migrated module 16, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1254.
+- 2026-04-04 — shipped iteration 255: migrated module 0, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1255.
+- 2026-05-05 — shipped iteration 256: migrated module 1, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1256.
+- 2026-06-06 — shipped iteration 257: migrated module 2, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1257.
+- 2026-07-07 — shipped iteration 258: migrated module 3, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1258.
+- 2026-08-08 — shipped iteration 259: migrated module 4, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1259.
+- 2026-09-09 — shipped iteration 260: migrated module 5, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1260.
+- 2026-10-10 — shipped iteration 261: migrated module 6, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1261.
+- 2026-11-11 — shipped iteration 262: migrated module 7, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1262.
+- 2026-12-12 — shipped iteration 263: migrated module 8, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1263.
+- 2026-01-13 — shipped iteration 264: migrated module 9, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1264.
+- 2026-02-14 — shipped iteration 265: migrated module 10, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1265.
+- 2026-03-15 — shipped iteration 266: migrated module 11, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1266.
+- 2026-04-16 — shipped iteration 267: migrated module 12, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1267.
+- 2026-05-17 — shipped iteration 268: migrated module 13, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1268.
+- 2026-06-18 — shipped iteration 269: migrated module 14, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1269.
+- 2026-07-19 — shipped iteration 270: migrated module 15, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1270.
+- 2026-08-20 — shipped iteration 271: migrated module 16, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1271.
+- 2026-09-21 — shipped iteration 272: migrated module 0, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1272.
+- 2026-10-22 — shipped iteration 273: migrated module 1, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1273.
+- 2026-11-23 — shipped iteration 274: migrated module 2, closed 4 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1274.
+- 2026-12-24 — shipped iteration 275: migrated module 3, closed 5 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1275.
+- 2026-01-25 — shipped iteration 276: migrated module 4, closed 6 tickets, owner anna, notes: follow-up filed as ORION-1276.
+- 2026-02-26 — shipped iteration 277: migrated module 5, closed 7 tickets, owner ben, notes: detail follow-up filed as ORION-1277.
+- 2026-03-27 — shipped iteration 278: migrated module 6, closed 8 tickets, owner chen, notes: detail detail follow-up filed as ORION-1278.
+- 2026-04-28 — shipped iteration 279: migrated module 7, closed 0 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1279.
+- 2026-05-01 — shipped iteration 280: migrated module 8, closed 1 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1280.
+- 2026-06-02 — shipped iteration 281: migrated module 9, closed 2 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1281.
+- 2026-07-03 — shipped iteration 282: migrated module 10, closed 3 tickets, owner chen, notes: follow-up filed as ORION-1282.
+- 2026-08-04 — shipped iteration 283: migrated module 11, closed 4 tickets, owner dee, notes: detail follow-up filed as ORION-1283.
+- 2026-09-05 — shipped iteration 284: migrated module 12, closed 5 tickets, owner anna, notes: detail detail follow-up filed as ORION-1284.
+- 2026-10-06 — shipped iteration 285: migrated module 13, closed 6 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1285.
+- 2026-11-07 — shipped iteration 286: migrated module 14, closed 7 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1286.
+- 2026-12-08 — shipped iteration 287: migrated module 15, closed 8 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1287.
+- 2026-01-09 — shipped iteration 288: migrated module 16, closed 0 tickets, owner anna, notes: follow-up filed as ORION-1288.
+- 2026-02-10 — shipped iteration 289: migrated module 0, closed 1 tickets, owner ben, notes: detail follow-up filed as ORION-1289.
+- 2026-03-11 — shipped iteration 290: migrated module 1, closed 2 tickets, owner chen, notes: detail detail follow-up filed as ORION-1290.
+- 2026-04-12 — shipped iteration 291: migrated module 2, closed 3 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1291.
+- 2026-05-13 — shipped iteration 292: migrated module 3, closed 4 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1292.
+- 2026-06-14 — shipped iteration 293: migrated module 4, closed 5 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1293.
+- 2026-07-15 — shipped iteration 294: migrated module 5, closed 6 tickets, owner chen, notes: follow-up filed as ORION-1294.
+- 2026-08-16 — shipped iteration 295: migrated module 6, closed 7 tickets, owner dee, notes: detail follow-up filed as ORION-1295.
+- 2026-09-17 — shipped iteration 296: migrated module 7, closed 8 tickets, owner anna, notes: detail detail follow-up filed as ORION-1296.
+- 2026-10-18 — shipped iteration 297: migrated module 8, closed 0 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1297.
+- 2026-11-19 — shipped iteration 298: migrated module 9, closed 1 tickets, owner chen, notes: detail detail detail detail follow-up filed as ORION-1298.
+- 2026-12-20 — shipped iteration 299: migrated module 10, closed 2 tickets, owner dee, notes: detail detail detail detail detail follow-up filed as ORION-1299.
+- 2026-01-21 — shipped iteration 300: migrated module 11, closed 3 tickets, owner anna, notes: follow-up filed as ORION-1300.
+- 2026-02-22 — shipped iteration 301: migrated module 12, closed 4 tickets, owner ben, notes: detail follow-up filed as ORION-1301.
+- 2026-03-23 — shipped iteration 302: migrated module 13, closed 5 tickets, owner chen, notes: detail detail follow-up filed as ORION-1302.
+- 2026-04-24 — shipped iteration 303: migrated module 14, closed 6 tickets, owner dee, notes: detail detail detail follow-up filed as ORION-1303.
+- 2026-05-25 — shipped iteration 304: migrated module 15, closed 7 tickets, owner anna, notes: detail detail detail detail follow-up filed as ORION-1304.
+- 2026-06-26 — shipped iteration 305: migrated module 16, closed 8 tickets, owner ben, notes: detail detail detail detail detail follow-up filed as ORION-1305.
+- 2026-07-27 — shipped iteration 306: migrated module 0, closed 0 tickets, owner chen, notes: follow-up filed as ORION-1306.
+- 2026-08-28 — shipped iteration 307: migrated module 1, closed 1 tickets, owner dee, notes: detail follow-up filed as ORION-1307.
+- 2026-09-01 — shipped iteration 308: migrated module 2, closed 2 tickets, owner anna, notes: detail detail follow-up filed as ORION-1308.
+- 2026-10-02 — shipped iteration 309: migrated module 3, closed 3 tickets, owner ben, notes: detail detail detail follow-up filed as ORION-1309.
